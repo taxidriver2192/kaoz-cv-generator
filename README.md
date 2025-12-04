@@ -10,6 +10,93 @@ Konverter din Kaoz.dk JSON profil til professionelt CV i PDF format via RenderCV
 - ✅ CLI interface - let at bruge
 - ✅ Supports dansk tekst og special characters
 
+## Input & Output Eksempel
+
+### Input: Kaoz.dk JSON Profil
+
+```json
+{
+  "profile": {
+    "name": "Lukas Schmidt",
+    "email": "mr.lukas.schmidt@gmail.com",
+    "headline": "Laravel & Vue Developer | Bygger AI-baserede produkter som kaoz.dk",
+    "location": "Roskilde, Danmark"
+  },
+  "professional_experience": [
+    {
+      "title": "Founder / Full Stack Developer – Kaoz.dk",
+      "company": "Selvstændig",
+      "summary": "Bygger og driver Kaoz.dk – en AI-drevet jobplatform...",
+      "location": "Roskilde, Danmark",
+      "start_date": "2025-08-01T00:00:00.000Z",
+      "end_date": "",
+      "skills": ["Laravel", "Vue", "OpenAI", "Docker", "CI/CD"]
+    }
+  ],
+  "education": [
+    {
+      "school": "Copenhagen Business School",
+      "degree": "Master of Science in Computer Science",
+      "summary": "Fokus på AI og machine learning",
+      "start_year": 2019,
+      "end_year": 2021
+    }
+  ],
+  "skills": {
+    "programming_languages": ["PHP", "JavaScript", "Python"],
+    "frameworks_libraries": ["Laravel", "Vue", "React"],
+    "other_skills": ["Docker", "AWS", "Git", "CI/CD"]
+  }
+}
+```
+
+### Output: Professionelt CV
+
+Kør kommandoen:
+```bash
+python generate_cv.py --input test_data/lukas_profile.json --user-id 123 --theme sb2nov
+```
+
+Genererer følgende filer i `output/123/sb2nov/`:
+```
+output/123/sb2nov/
+├── Lukas_Schmidt_CV.pdf      ← Hovedfil: Professionelt PDF CV
+├── Lukas_Schmidt_CV.html     ← Web version
+├── Lukas_Schmidt_CV.md       ← Markdown version
+├── Lukas_Schmidt_CV.typ      ← Typst source code
+├── Lukas_Schmidt_CV_1.png    ← Preview billede side 1
+└── Lukas_Schmidt_CV_2.png    ← Preview billede side 2
+```
+
+**Resultat:** Et professionelt formateret CV med:
+- Overskuelig layout med navn og kontaktinfo
+- Struktureret arbejdserfaring med bullet points
+- Uddannelseshistorik
+- Kategoriserede skills (Programming Languages, Frameworks, Tools)
+- Professionelt design der passer til tech-branchen
+
+#### Eksempel: sb2nov tema (modern & clean)
+![CV Example - sb2nov theme](docs/examples/cv_example_sb2nov.png)
+
+#### Eksempel: classic tema (akademisk stil)
+![CV Example - classic theme](docs/examples/cv_example_classic.png)
+
+### Flere Temaer
+
+Generer samme CV i forskellige designs:
+```bash
+# Modern tech-friendly design
+python generate_cv.py --input profile.json --user-id 123 --theme sb2nov
+
+# Klassisk akademisk stil
+python generate_cv.py --input profile.json --user-id 123 --theme classic
+
+# Optimeret til ingeniører
+python generate_cv.py --input profile.json --user-id 123 --theme engineeringresumes
+```
+
+Hvert tema gemmes i sin egen mappe: `output/123/sb2nov/`, `output/123/classic/`, etc.
+
 ## Installation
 
 ### Prerequisites
