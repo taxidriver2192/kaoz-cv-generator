@@ -1,0 +1,108 @@
+{
+  "profile": {
+    "name": "Lukas Schmidt",
+    "email": "mr.lukas.schmidt@gmail.com",
+    "headline": "Laravel & Vue Developer | Bygger AI-baserede produkter som kaoz.dk",
+    "location": "Roskilde, Danmark",
+    "phone": null,
+    "linkedin_url": null,
+    "github_url": null
+  },
+  "professional_experience": [
+    {
+      "title": "Founder / Full Stack Developer – Kaoz.dk",
+      "company": "Selvstændig",
+      "summary": "Bygger og driver Kaoz.dk – en AI-drevet jobplatform målrettet udviklere. Udviklet i Laravel + Vue med fuld kontrol over arkitektur, scraping, OpenAI-integrationer, CI/CD og produktdesign. Platformen matcher >10.000 jobs med LinkedIn/CV-data og genererer automatiske fit-scores, baseret på tech-stack, lokation, senioritet og virksomhedstype.",
+      "location": "Roskilde, Danmark",
+      "start_date": "2025-08-01T00:00:00.000Z",
+      "end_date": "",
+      "skills": ["Laravel", "Vue", "OpenAI", "Docker", "CI/CD"]
+    },
+    {
+      "title": "Full Stack-udvikler",
+      "company": "Scandesign Media A/S",
+      "summary": "Designede og optimerede web-løsninger med Laravel (PHP) som backend. Udviklede skalerbare arkitekturer og løste komplekse tekniske udfordringer i tæt samarbejde med teamet. Deltog i konsulentprojekter for eksterne kunder, leverede effektive og høj-kvalitets digitale løsninger.",
+      "location": "Danmark",
+      "start_date": "2024-09-01T00:00:00.000Z",
+      "end_date": "2025-08-01T00:00:00.000Z",
+      "skills": ["Laravel", "PHP", "Vue", "Docker", "JavaScript"]
+    },
+    {
+      "title": "Founder / Full Stack Developer – DailyDose",
+      "company": "DailyDose",
+      "summary": "Stiftede og drev DailyDose, en platform for autentisk dansk design og kunst. Integrerede skandinavisk æstetik og høj kvalitet i unikke kunstværker og personligt tilpassede designoplevelser. Udviklede automatiserede procesværktøjer (fx Python/AI) til generering af kunst baseret på kunders præferencer.",
+      "location": "Danmark",
+      "start_date": "2023-06-01T00:00:00.000Z",
+      "end_date": "2025-04-01T00:00:00.000Z",
+      "skills": ["PHP", "Python", "AI", "Midjourney", "WordPress"]
+    },
+    {
+      "title": "Laravel & PHP Backend Developer",
+      "company": "Børsen",
+      "summary": "Vedligeholdte og opdaterede Børsens websites med kontinuerligt fokus på minimal nedetid og forbedret performance. Implementerede effektive backend-løsninger (Docker, AWS, GraphQL m.fl.) for at optimere driftsstabilitet og brugeroplevelse. Sikrede stabile webservices, der understøtter avisens digitale tilstedeværelse og læseoplevelse.",
+      "location": "København, Danmark",
+      "start_date": "2023-03-01T00:00:00.000Z",
+      "end_date": "2024-09-01T00:00:00.000Z",
+      "skills": ["PHP", "Laravel", "AWS", "Docker", "GraphQL", "Vue"]
+    },
+    {
+      "title": "PHP-udvikler",
+      "company": "Brandhouse/Subsero",
+      "summary": "Udviklede nye funktioner og rettede fejl i webapplikationer ved hjælp af ren, effektiv PHP-kode. Arbejdede tæt sammen med designteamet om UX/UI for at skabe intuitive og visuelt tiltalende brugerflader. Administrerede versionsstyring (Git) og bidrog aktivt til at vedligeholde et stabilt fælles kodegrundlag.",
+      "location": "København, Danmark",
+      "start_date": "2022-05-01T00:00:00.000Z",
+      "end_date": "2023-02-01T00:00:00.000Z",
+      "skills": ["PHP", "MySQL", "Python", "JavaScript", "Git"]
+    },
+    {
+      "title": "Kundeservice & Butiksansvarlig",
+      "company": "MacVision",
+      "summary": "Ydede teknisk support til kunder via telefon, email og fysisk fremmøde; diagnosticerede og løste hardware/softwareproblemer. Opbyggede grundlæggende web- og programmeringsfærdigheder (HTML, CSS, PHP, Python) gennem intern træning. Udviklede stærke kommunikations- og problemløsningsevner gennem daglig kundekontakt og teamwork.",
+      "location": "Roskilde, Danmark",
+      "start_date": "2012-11-01T00:00:00.000Z",
+      "end_date": "2020-03-01T00:00:00.000Z",
+      "skills": ["HTML", "CSS", "PHP", "Python", "MySQL", "WordPress"]
+    },
+    {
+      "title": "Freelance Webdesigner",
+      "company": "Hiint",
+      "summary": "Udviklede og vedligeholdt WordPress-hjemmesider for Hiints kunder som freelance-udvikler. Implementerede ændringer og projekter i tæt samarbejde med samarbejdspartnere, primært i PHP. Opbyggede værdifuld erfaring med webudvikling og udvidede mit professionelle netværk.",
+      "location": "Roskilde, Danmark",
+      "start_date": "2019-02-01T00:00:00.000Z",
+      "end_date": "2019-06-01T00:00:00.000Z",
+      "skills": ["HTML", "CSS", "PHP", "JavaScript", "React", "MySQL", "WordPress"]
+    },
+    {
+      "title": "Programmør",
+      "company": "STANDOUTMEDIA A/S",
+      "summary": "Udviklede og vedligeholdt WordPress-projekter ved hjælp af PHP og SQL. Bidrog med grafisk design (Photoshop) for at forbedre visuelle elementer og brugervenlighed på kundernes websites. Erfaringen styrkede mine kompetencer inden for både frontend-udvikling og webdesign.",
+      "location": "København, Danmark",
+      "start_date": "2017-03-01T00:00:00.000Z",
+      "end_date": "2018-03-01T00:00:00.000Z",
+      "skills": ["PHP", "HTML", "CSS", "JavaScript", "MySQL", "WordPress", "Adobe Photoshop"]
+    }
+  ],
+  "education": [
+    {
+      "school": "Zealand - Sjællands Erhvervsakademi",
+      "degree": "Datamatiker, Programmering",
+      "summary": "Som datamatiker har jeg fået en solid teoretisk og praktisk ballast i softwareudvikling, databaser, systemarkitektur og webprogrammering. Uddannelsen gav mig en struktureret tilgang til at analysere og bygge stabile digitale løsninger – og evnen til at omsætte komplekse krav til skalerbar kode. Jeg bruger dagligt det, jeg lærte her, i mit arbejde med backend-udvikling og systemintegration – både til kommercielle projekter og egne produkter.",
+      "start_year": 2019,
+      "end_year": 2021,
+      "skills": ["PHP", "JavaScript", "Python", "HTML", "CSS", "SQL", "React", "MySQL", "Git", "Linux", "Bash"]
+    },
+    {
+      "school": "Roskilde Tekniske Skole",
+      "degree": "Webudvikler",
+      "summary": "Her fik jeg en stærk praktisk tilgang til webudvikling – især frontend – med fokus på UX, responsivt design og CMS-integration. Jeg lærte at bygge komplette løsninger fra design til deployment og fik erfaring med både brugergrænseflader og projektstyring. Uddannelsen lagde fundamentet for mit arbejde som selvstændig og senere som professionel udvikler i forskellige virksomheder.",
+      "start_year": 2012,
+      "end_year": 2015,
+      "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress", "Adobe Photoshop"]
+    }
+  ],
+  "skills": {
+    "programming_languages": ["PHP", "JavaScript", "Python", "HTML", "CSS", "Bash", "SQL"],
+    "frameworks_libraries": ["Laravel", "Vue", "React", "WordPress", "jQuery"],
+    "other_skills": ["Docker", "AWS", "Git", "MySQL", "Linux", "GraphQL", "CI/CD", "OpenAI", "Midjourney", "Adobe Photoshop", "Adobe Illustrator", "Backend-webudvikling", "Frontend-udvikling", "Webudvikling", "Webdesign", "UX/UI"]
+  }
+}

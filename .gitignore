@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Output files (ignore all generated CVs by user)
+output/*/
+!output/.gitkeep
+
+# Test data (optional - uncomment if you don't want to commit test data)
+# test_data/*.json
+# !test_data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temp files
+*.tmp
+temp_*.yaml

@@ -1,0 +1,68 @@
+cv:
+  name: Lukas Schmidt
+  location: Copenhagen, Denmark
+  email: lukas.schmidt@example.com
+  sections:
+    summary:
+    - Senior Full-Stack Developer & Cloud Solutions Architect
+    experience:
+    - company: TechCorp Solutions
+      position: Senior Full-Stack Developer
+      start_date: 2021-06
+      end_date: present
+      location: Copenhagen, Denmark
+      highlights:
+      - Led development of microservices architecture serving 1M+ users. Implemented
+        CI/CD pipelines reducing deployment time by 60%.
+      - Mentored team of 5 junior developers.
+    - company: Digital Innovations ApS
+      position: Full-Stack Developer
+      start_date: 2019-03
+      end_date: 2021-05
+      location: Aarhus, Denmark
+      highlights:
+      - Built e-commerce platform processing 10K+ daily transactions. Optimized database
+        queries reducing load time by 40%.
+      - Integrated payment gateway with Stripe and MobilePay.
+    - company: StartupLab
+      position: Junior Web Developer
+      start_date: 2017-08
+      end_date: 2019-02
+      location: Copenhagen, Denmark
+      highlights:
+      - Developed responsive web applications for 15+ clients. Collaborated with design
+        team to implement pixel-perfect UI components.
+      - Maintained legacy codebase and fixed critical bugs.
+    education:
+    - institution: Technical University of Denmark (DTU)
+      area: Computer Science
+      degree: Master of Science
+      start_date: '2015'
+      end_date: '2017'
+      highlights:
+      - 'Specialized in distributed systems and cloud computing. Master thesis on
+        scalable microservices architecture. GPA: 11.5/12.'
+    - institution: Copenhagen Business School
+      area: Information Systems
+      degree: Bachelor of Science
+      start_date: '2012'
+      end_date: '2015'
+      highlights:
+      - Focus on software engineering and database systems. Completed capstone project
+        building enterprise resource planning system.
+    technologies:
+    - label: Programming Languages
+      details: PHP, JavaScript, TypeScript, Python, Go, SQL
+    - label: Frameworks & Libraries
+      details: Laravel, Symfony, Vue.js, React, Node.js, Express, Tailwind CSS
+    - label: Tools & Technologies
+      details: Docker, Kubernetes, AWS, Azure, CI/CD, Git, PostgreSQL, MySQL, MongoDB,
+        Redis
+  phone: +45 12345678
+  social_networks:
+  - network: LinkedIn
+    username: lukasschmidt
+  - network: GitHub
+    username: lukasschmidt
+design:
+  theme: sb2nov
